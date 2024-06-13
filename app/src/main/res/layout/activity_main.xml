@@ -18,7 +18,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="serif-monospace"
+        android:fontFamily="sans-serif-condensed-medium"
         android:text="@string/WelcomeBanner"
         android:textColor="@color/blancoLetra"
         android:textSize="20sp"
@@ -29,14 +29,20 @@
 
 
     <Button
-        android:layout_width="237dp"
+        android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:layout_marginTop="40dp"
-        android:autoSizeTextType="uniform"
-        android:background="@drawable/btn_banner"
+        android:background="@drawable/round_buton"
+        android:textSize="25dp"
         android:text="@string/btnWelcomeBanner"
         android:textStyle="bold"
+        android:textColor="@color/backgroundGris"
         />
+
+
+
+    
+
 
 </LinearLayout>

@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListView"
+    android:orientation="vertical"
+    android:background="@color/backgroundGris">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/series"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/amarilloLetra"
+            android:textStyle="bold"
+            android:textSize="23dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            />
+
+        <ImageView
+            android:layout_width="320dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/rectangulo"
+            />
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="-40dp"
+        android:layout_marginRight="-40dp"
+        android:paddingHorizontal="50dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="40dp"
+            >
+
+            <ImageView
+                android:id="@+id/image_drhouse"
+                android:layout_width="85dp"
+                android:layout_height="113dp"
+                android:src="@drawable/drhouse"
+                android:clickable="true"
+                android:focusable="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/drhouse"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:textColor="@color/amarilloLetra"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="40dp">
+
+            <ImageView
+                android:id="@+id/image_smallville"
+                android:layout_width="85dp"
+                android:layout_height="113dp"
+                android:src="@drawable/smallville"
+                android:clickable="true"
+                android:focusable="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/smallville"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:textColor="@color/amarilloLetra"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="40dp">
+
+            <ImageView
+                android:id="@+id/image_drwho"
+                android:layout_width="85dp"
+                android:layout_height="113dp"
+                android:src="@drawable/drwho"
+                android:clickable="true"
+                android:focusable="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/drwho"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/amarilloLetra"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/image_bones"
+                android:layout_width="85dp"
+                android:layout_height="113dp"
+                android:src="@drawable/bones"
+                android:clickable="true"
+                android:focusable="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bones"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/amarilloLetra"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/image_suits"
+                android:layout_width="85dp"
+                android:layout_height="113dp"
+                android:src="@drawable/suits"
+                android:clickable="true"
+                android:focusable="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/suits"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:textColor="@color/amarilloLetra"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            >
+
+            <ImageView
+                android:id="@+id/image_friends"
+                android:layout_width="85dp"
+                android:layout_height="113dp"
+                android:src="@drawable/friends"
+                android:clickable="true"
+                android:focusable="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/friends"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/amarilloLetra"
+                />
+
+        </LinearLayout>
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="320dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/rectangulo"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/movies"
+            android:layout_gravity=""
+            android:layout_marginTop="20dp"
+            android:textColor="@color/amarilloLetra"
+            android:textStyle="bold"
+            android:textSize="23dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            />
+
+
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="-40dp"
+        android:layout_marginRight="-40dp"
+        android:paddingHorizontal="50dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="40dp"
+            >
+
+            <ImageView
+                android:id="@+id/image_drhouse"
+                android:layout_width="85dp"
+                android:layout_height="113dp"
+                android:src="@drawable/drhouse"
+                android:clickable="true"
+                android:focusable="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/drhouse"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:textColor="@color/amarilloLetra"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="40dp">
+
+            <ImageView
+                android:id="@+id/image_smallville"
+                android:layout_width="85dp"
+                android:layout_height="113dp"
+                android:src="@drawable/smallville"
+                android:clickable="true"
+                android:focusable="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/smallville"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:textColor="@color/amarilloLetra"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="40dp">
+
+            <ImageView
+                android:id="@+id/image_drwho"
+                android:layout_width="85dp"
+                android:layout_height="113dp"
+                android:src="@drawable/drwho"
+                android:clickable="true"
+                android:focusable="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/drwho"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/amarilloLetra"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/image_bones"
+                android:layout_width="85dp"
+                android:layout_height="113dp"
+                android:src="@drawable/bones"
+                android:clickable="true"
+                android:focusable="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bones"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/amarilloLetra"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/image_suits"
+                android:layout_width="85dp"
+                android:layout_height="113dp"
+                android:src="@drawable/suits"
+                android:clickable="true"
+                android:focusable="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/suits"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:textColor="@color/amarilloLetra"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            >
+
+            <ImageView
+                android:id="@+id/image_friends"
+                android:layout_width="85dp"
+                android:layout_height="113dp"
+                android:src="@drawable/friends"
+                android:clickable="true"
+                android:focusable="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/friends"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/amarilloLetra"
+                />
+
+        </LinearLayout>
+    </GridLayout>
+
+
+</LinearLayout>

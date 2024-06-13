@@ -6,4 +6,20 @@
     </string>
 
     <string name="btnWelcomeBanner">GET ME IN!</string>
+    <string name="series">SERIES</string>
+    <string name="movies">MOVIES</string>
+
+    <string name="drhouse">Dr.House</string>
+    <string name="smallville">Smallville</string>
+    <string name="drwho">Dr.Who</string>
+    <string name="bones">Bones</string>
+    <string name="suits">Suits</string>
+    <string name="friends">Friends</string>
+    <string name="milnueve">1917</string>
+    <string name="bighero">Big Hero 6</string>
+    <string name="leapyear">Leap Year</string>
+    <string name="meninblack">Men In Black</string>
+    <string name="toystory">Toy Story</string>
+    <string name="inception">Inception</string>
+
 </resources>
