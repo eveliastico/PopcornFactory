@@ -11,13 +11,14 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/series"
-            android:layout_marginTop="20dp"
+
             android:textColor="@color/amarilloLetra"
             android:textStyle="bold"
             android:textSize="23dp"
@@ -28,7 +29,7 @@
         <ImageView
             android:layout_width="320dp"
             android:layout_height="3dp"
-            android:layout_marginTop="35dp"
+            android:layout_marginTop="15dp"
             android:layout_marginLeft="5dp"
             android:background="@drawable/rectangulo"
             />
@@ -201,14 +202,16 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        >
 
         <ImageView
-            android:layout_width="320dp"
+            android:layout_width="300dp"
             android:layout_height="3dp"
-            android:layout_marginTop="35dp"
-            android:layout_marginLeft="5dp"
             android:background="@drawable/rectangulo"
+            android:layout_marginTop="15dp"
             />
 
         <TextView
@@ -216,11 +219,10 @@
             android:layout_height="wrap_content"
             android:text="@string/movies"
             android:layout_gravity=""
-            android:layout_marginTop="20dp"
             android:textColor="@color/amarilloLetra"
+            android:layout_marginLeft="5dp"
             android:textStyle="bold"
             android:textSize="23dp"
-            android:layout_marginLeft="10dp"
             android:fontFamily="sans-serif-condensed-medium"
             />
 
@@ -245,17 +247,41 @@
             >
 
             <ImageView
-                android:id="@+id/image_drhouse"
+                android:id="@+id/milnueve"
                 android:layout_width="85dp"
                 android:layout_height="113dp"
-                android:src="@drawable/drhouse"
+                android:src="@drawable/pelicula1917"
                 android:clickable="true"
                 android:focusable="true"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/drhouse"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="@string/milnueve"
+                android:textColor="@color/amarilloLetra" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="40dp">
+
+            <ImageView
+                android:id="@+id/image_bighero"
+                android:layout_width="85dp"
+                android:layout_height="113dp"
+                android:src="@drawable/bighero6"
+                android:clickable="true"
+                android:focusable="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bighero"
                 android:layout_marginTop="5dp"
                 android:layout_gravity="center"
                 android:textColor="@color/amarilloLetra"
@@ -270,42 +296,17 @@
             android:layout_marginRight="40dp">
 
             <ImageView
-                android:id="@+id/image_smallville"
+                android:id="@+id/image_leapyear"
                 android:layout_width="85dp"
                 android:layout_height="113dp"
-                android:src="@drawable/smallville"
+                android:src="@drawable/leapyear"
                 android:clickable="true"
                 android:focusable="true"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/smallville"
-                android:layout_marginTop="5dp"
-                android:layout_gravity="center"
-                android:textColor="@color/amarilloLetra"
-                />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginRight="40dp">
-
-            <ImageView
-                android:id="@+id/image_drwho"
-                android:layout_width="85dp"
-                android:layout_height="113dp"
-                android:src="@drawable/drwho"
-                android:clickable="true"
-                android:focusable="true"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/drwho"
+                android:text="@string/leapyear"
                 android:layout_gravity="center"
                 android:layout_marginTop="5dp"
                 android:textColor="@color/amarilloLetra"
@@ -321,17 +322,17 @@
             android:layout_marginTop="20dp">
 
             <ImageView
-                android:id="@+id/image_bones"
+                android:id="@+id/image_meninblack"
                 android:layout_width="85dp"
                 android:layout_height="113dp"
-                android:src="@drawable/bones"
+                android:src="@drawable/mib"
                 android:clickable="true"
                 android:focusable="true"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/bones"
+                android:text="@string/meninblack"
                 android:layout_gravity="center"
                 android:layout_marginTop="5dp"
                 android:textColor="@color/amarilloLetra"
@@ -346,17 +347,17 @@
             android:layout_marginTop="20dp">
 
             <ImageView
-                android:id="@+id/image_suits"
+                android:id="@+id/image_toystory"
                 android:layout_width="85dp"
                 android:layout_height="113dp"
-                android:src="@drawable/suits"
+                android:src="@drawable/toystory"
                 android:clickable="true"
                 android:focusable="true"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/suits"
+                android:text="@string/toystory"
                 android:layout_marginTop="5dp"
                 android:layout_gravity="center"
                 android:textColor="@color/amarilloLetra"
@@ -372,17 +373,17 @@
             >
 
             <ImageView
-                android:id="@+id/image_friends"
+                android:id="@+id/image_inception"
                 android:layout_width="85dp"
                 android:layout_height="113dp"
-                android:src="@drawable/friends"
+                android:src="@drawable/inception"
                 android:clickable="true"
                 android:focusable="true"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/friends"
+                android:text="@string/inception"
                 android:layout_gravity="center"
                 android:layout_marginTop="5dp"
                 android:textColor="@color/amarilloLetra"
