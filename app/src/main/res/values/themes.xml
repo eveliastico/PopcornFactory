@@ -3,6 +3,7 @@
     <style name="Base.Theme.PopcornFactory" parent="Theme.Material3.DayNight.NoActionBar">
 
         <item name="colorPrimary">@color/amarilloLetra</item>
+        <item name="colorSecondary">@color/blancoLetra</item>
 
     </style>
 
